@@ -12,7 +12,7 @@ jobs:
     strategy:
       matrix:
         build_env:
-          - tag: "SNAPSHOT"
+          - tag: "r27700-170ecbecfc"
             pkgarch: aarch64_cortex-a53
             target: mediatek
             subtarget: mediatek
